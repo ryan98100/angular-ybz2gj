@@ -1,4 +1,25 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="card">
+  <div [innerHTML]="calc"></div>
+  <div class="">
+    <br>
+    <button (click)=enol()>0</button>
+    <button (click)=satu()>1</button>
+    <button (click)=dua()>2</button>
+    <br><br>
+    <button (click)=tiga()>3</button>
+    <button (click)=empat()>4</button>
+    <button (click)=lima()>5</button>
+    <br><br>
+    <button (click)=empat()>6</button>
+    <button (click)=tujuh()>7</button>
+    <button (click)=delapan()>8</button>
+    <br><br>
+    <button (click)=sembilan()>9</button>
+    <br><br>
+    <button (click)=kurang()>-</button>
+    <button (click)=tambah()>+</button>
+    <button (click)=kali()>x</button>
+    <button (click)=hasile()>=</button>
+  </div>
+</div>
+<router-outlet></router-outlet>
