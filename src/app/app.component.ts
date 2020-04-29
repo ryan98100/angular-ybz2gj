@@ -81,7 +81,6 @@ export class AppComponent  {
     else if (this.lambang == "-"){
        this.hasil = parseInt(this.temp) - parseInt(this.data);
     }
-    alert(this.hasil);
     this.tampil = String(this.hasil);
     this.router.navigate(['/page1',this.hasil]);
   }
