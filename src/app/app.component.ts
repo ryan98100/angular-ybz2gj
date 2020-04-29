@@ -84,4 +84,10 @@ export class AppComponent  {
     this.tampil = String(this.hasil);
     this.router.navigate(['/page1',this.hasil]);
   }
+  reset(){
+    this.data ="";
+    this.hasil=0;
+    this.lambang="";
+    this.temp="";
+  }
 }

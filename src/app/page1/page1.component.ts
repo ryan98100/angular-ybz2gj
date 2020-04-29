@@ -14,7 +14,7 @@ constructor(private route:ActivatedRoute) { }
     this.hasil = id;
   }
   back(){
-      this.route.navigate(['/app']);
+      alert("g ngerti carfanya ngeback");
   }
 
 }
