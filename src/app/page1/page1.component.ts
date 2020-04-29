@@ -14,7 +14,7 @@ constructor(private route:ActivatedRoute) { }
     this.hasil = id;
   }
   back(){
-    
+      this.route.navigate(['/app']);
   }
 
 }

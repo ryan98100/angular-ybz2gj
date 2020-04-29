@@ -9,6 +9,7 @@ import{Routes ,RouterModule} from '@angular/router';
 
 const Routes:Routes = [
   {path:'page1/:hasil' , component:Page1Component},
+  {path:'app', component:AppComponent}
 ]
 @NgModule({
   imports:      [ BrowserModule, FormsModule ,RouterModule.forRoot(Routes)],
